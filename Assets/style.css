@@ -3,6 +3,13 @@
 /*--------------------------------------Colours */
 
 
+.body{
+    background-color: #fffdd0;
+}
+
+header{
+    background-color: gray;
+}
 
 /*--------------------------------------Header*/
 header{
