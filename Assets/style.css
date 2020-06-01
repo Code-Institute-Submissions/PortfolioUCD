@@ -75,18 +75,18 @@ header{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px; 
-}
-
-
-/*---------------------------------indexsection*/
-.icon{
-    padding: left;
-
-}        
-        
+}/*---------------------------------indexsection*/
+.about-icon{   
+background :url("Assets/Images/Albert SamGRad.JPG"); 
+border-radius: 50%;
+    border-color: black;
+    width: 300px; 
+    margin: auto;
+}   
 .About-heading p{
-
-float: right; 
+width:49%;
+float:left;
+text-align:right;
 }
 
 
@@ -151,6 +151,11 @@ hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: au
 .work-timeline{
     margin-bottom: 30px;
 }
+/*--------------------------Projects*/
+.project-img{
+    border: grey;
+}
+
 
 /*-----------------------Footer*/
 footer{
