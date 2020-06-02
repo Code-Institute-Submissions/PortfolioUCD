@@ -82,7 +82,11 @@ border-radius: 50%;
     border-color: black;
     width: 300px; 
     margin: auto;
-}   
+}  
+ #About-heading{
+    text-decoration: underline;
+}
+
 .About-heading p{
 width:49%;
 float:left;
@@ -106,12 +110,13 @@ hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: au
     position: relative;
     color: black;
     border-left: 1px solid; 
+    text-decoration: underline;
 }
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: grey;
+    color: black;
     border-left: 1px solid;
 }
 
@@ -154,6 +159,9 @@ hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: au
 /*--------------------------Projects*/
 .project-img{
     border: grey;
+    height:360px;
+    /*background: url("Assets/Images/LoveRunning.JPG");*/
+    width: 300px;
 }
 
 
