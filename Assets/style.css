@@ -161,7 +161,31 @@ hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: au
     /*background: url("Assets/Images/LoveRunning.JPG");*/
     width: 300px;
 }
+/*--------------------------contact*/
+.name{
+    font-family: "Exo" sans-serif;
+}
+.center-form{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width:70% ; 
+}
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom:20px;
+    color:#fafafa;
+    background-color: #FF0000; 
 
+}
+
+@media(min-width: 992px){
+    .center-form{
+        padding-top: 30px;
+         min-height: 240px;
+         margin: 0 auto;
+         max-width:50%;
+    }
+}
 
 /*-----------------------Footer*/
 footer{
