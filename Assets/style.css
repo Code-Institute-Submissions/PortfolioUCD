@@ -44,7 +44,13 @@ header{
     font-size: 14px;
     padding: 0;
 }
+#nav li i:hover{
+    color: #FF0000;
+}
 
+#nav li i:active{
+    color: blue;
+}
 .menuitem{
     height: 100px;
     text-align: center;
@@ -160,6 +166,15 @@ hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: au
     height:360px;
     /*background: url("Assets/Images/LoveRunning.JPG");*/
     width: 300px;
+    position: relative;
+    
+}
+
+.project-link{
+    font-family: "EXO", Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: underline;
+
 }
 /*--------------------------contact*/
 .name{
