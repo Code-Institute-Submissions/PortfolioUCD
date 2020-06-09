@@ -43,7 +43,59 @@ Bootstrap 4
 Font awsome 
 
 Testing 
+Testing UCD Portfolio  
 
+I/o tests  
+
+All pages will format to the device which the site is being presented on.  
+
+Navbar  
+
+1.(i) When highlighting over an icon the emblem shall change colour  
+
+(ii) When clicking on an icon the site will move over to the next webpage 
+
+(iii) When clicking an icon, it would quickly highlight blue to indicate the user has clicked on the webpage 
+
+  
+
+Header 
+
+                            
+
+ 
+
+ 
+
+Footer 
+
+(I) When highlighting the social media links the page will icons will highlight in blue. 
+
+(ii)Footer will always be displayed on all pages 
+
+(III)  
+
+ 
+
+ 
+
+Project page 
+
+(I) Project images shall always be displayed 
+
+(ii) Project links shall open a new page 
+
+ 
+
+Contact page 
+
+(I)When the form is empty validation shall appear in the name field 
+
+(ii)When the form is empty/ invalid email address the form should have validation to display  
+
+(iii) 
+
+(iv) When a user presses the make a request a modal shall appear to declare that the form has sent the message  
 
 
 
@@ -54,6 +106,6 @@ Deployment
 Credits
 
 
-
-
+Acknowledgements 
+This site was inspired by the project UCD in the code institute program for the concept of using Bootstrap.  
 
