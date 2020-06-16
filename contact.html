@@ -164,7 +164,7 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
 
-				<script>
+			<!--<script>
 					$(function() {
                         var form = $("#myform");
                         var modal= $("#CloseModal");
@@ -177,8 +177,22 @@
                     })
                 })
                 
-				</script>
-		
+				</script>-->	
+		<script> 
+        //get elements from form
+        var inputName= document.getElementById('InputName');
+        var InputEmail= document.getElementById('exampleInputEmail1');
+        var InputMessage= document.getElementById('Message');
+        var subbutton= document.getElementById('submit');
+
+        subbutton.addEventListener('click',function(e)){
+            if(inputName.value.length<3 && InputEmail && InputMessage){
+
+            }else{
+                e.preventDefault();
+            }
+        },false);
+        </script>
     
 </body>
 
