@@ -10,52 +10,56 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link rel="stylesheet" href="Assets/style.css" type="text/css">
-    
+
 	<title>Contact Page</title>
 </head>
 
 <body>
-<header>
+	<header>
 		<div class="row no-gutters">
 			<h1 class="name">Contact Form</h1>
 		</div>
 		<div class="row no-gutters">
 			<div class="col">
-            <!--Navbar-->
+				<!--Navbar to control navigation between pages-->
 				<ul id="nav" class="list-inline menucontainer">
 					<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
-                    
+
 						<a href="index.html"> <i class="fas fa-home" aria-hidden="true"></i><span>Home</span> </a>
 					</li>
 
 					<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
-                    
-						<a href="edhistory.html"> <i class="fas fa-school" aria-hidden="true"></i><span>Education History</span></a>
+
+						<a href="edhistory.html">
+							<i class="fas fa-school" aria-hidden="true"></i><span>Education History</span></a>
 					</li>
 
 					<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
-                    
-						<a href="worktime.html"> <i class="fas fa-briefcase" aria-hidden="true"></i><span>Work timeline</span></a>
+
+						<a href="worktime.html">
+							<i class="fas fa-briefcase" aria-hidden="true"></i><span>Work timeline</span></a>
 					</li>
 
 					<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
-                   
-						<a href="projects.html"> <i class="fas fa-project-diagram" aria-hidden="true"></i> <span>Projects</span></a>
+
+						<a href="projects.html"> <i class="fas fa-project-diagram" aria-hidden="true"></i>
+							<span>Projects</span></a>
 					</li>
 
 					<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
-                    
-						<a href="contact.html"><i class="fas fa-address-book" aria-hidden="true"></i><span>Contact Page</span></a>
+
+						<a
+							href="contact.html"><i class="fas fa-address-book" aria-hidden="true"></i><span>Contact Page</span></a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</header>
 	<section>
-    <!--Contact form-->
-    <h4>Would you like me to contact you?</h4>
-    <h5> Enter details and will respond as soon as possible. </h5>
-		<form class="center-form">
+		<!--Contact form-->
+		<h4>Would you like me to contact you?</h4>
+		<h5> Enter details and will respond as soon as possible. </h5>
+		<form id="myForm" class="center-form">
 			<div class="form-group">
 				<label for="InputName">Enter Name</label>
 				<input type="text" class="form-control" id="InputName" placeholder="Name" required>
@@ -71,85 +75,111 @@
 					<textarea class="form-control" id="Message" rows="4" required></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#CloseModal">Send Message</button>
-<!-- Modal -->
-<div class="modal fade" id="CloseModal" tabindex="-1" role="dialog" aria-labelledby="CloseModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Message has been sent</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+				<!-- Modal -->
+				<div class="modal fade" id="CloseModal" tabindex="-1" role="dialog" aria-labelledby="CloseModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Message has been sent</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
-      <div class="modal-body">
-        <p>Thank you will send an email in reponse as soon as possible</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-	</form>
+							</div>
+							<div class="modal-body">
+								<p>Thank you will send an email in reponse as soon as possible</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+</form>
 	</section>
-    <!--Footer-->
-<footer class="container-fluid">
-        <div id="Personal-Details" class="row">
-		<div class="col-sm-4">
-			<h5 class="uppercase general-sub">Personal Details</h5>
-			
-            <h6 class="uppercase">Name</h6>
-            <p class="inline-block"> 
-            Albert Sam
-            </p>
-        </div>
+	<!--Footer-->
+	<footer class="container-fluid">
+		<div id="Personal-Details" class="row">
 			<div class="col-sm-4">
-            <h6 class="uppercase general-sub">Email </h6>
-            <p class="inline-block">kevins2328@googlemail.com </p> 
+				<h5 class="uppercase general-sub">Personal Details</h5>
+
+				<h6 class="uppercase">Name</h6>
+				<p class="inline-block">
+					Albert Sam
+				</p>
 			</div>
-            <div class="col-sm-4"> 
-            <h6 class="uppercase general-sub">Social</h6> 
-            <ul class="list-inline social-links">
-        <li class="list-inline-item">
-             <a target="_blank" href="https://en-gb.facebook.com/">
-                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-            </a>
-     </li>
-     <li class="list-inline-item">
-             <a target="_blank" href="https://twitter.com/explore">
-                 <i  class="fab fa-twitter"aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-            </a>
-     </li>
+			<div class="col-sm-4">
+				<h6 class="uppercase general-sub">Email </h6>
+				<p class="inline-block">kevins2328@googlemail.com </p>
+			</div>
+			<div class="col-sm-4">
+				<h6 class="uppercase general-sub">Social</h6>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="https://en-gb.facebook.com/">
+							<i class="fab fa-facebook-f" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="https://twitter.com/explore">
+							<i  class="fab fa-twitter"aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
 
-          <li class="list-inline-item">
-             <a target="_blank" href="https://uk.linkedin.com/">
-                 <i class="fab fa-linkedin" aria-hidden="true"></i>
-                <span class="sr-only">Linkden</span>
-            </a>
-     </li>
-          <li class="list-inline-item">
-             <a target="_blank" href="https://www.instagram.com/?hl=en">
-                 <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-            </a>
-     </li>
+					<li class="list-inline-item">
+						<a target="_blank" href="https://uk.linkedin.com/">
+							<i class="fab fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">Linkden</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="https://www.instagram.com/?hl=en">
+							<i class="fab fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
 
-          <li class="list-inline-item">
-             <a target="_blank" href="#">
-                 <i class="fab fa-youtube" aria-hidden="https://www.youtube.com/"></i>
-                <span class="sr-only">Youtube</span>
-            </a>
-     </li>
-            </div>
-            
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-youtube" aria-hidden="https://www.youtube.com/"></i>
+							<span class="sr-only">Youtube</span>
+						</a>
+					</li>
+			</div>
+
 			</ul>
 		</div>
-        </div>
+		</div>
 	</footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+
+				<script>
+					$(function() {
+                        var form = $("#myform");
+                        var modal= $("#CloseModal");
+                        form.submit(function(){
+                       form.addEventListener("click",function(event){
+                            event.preventDefault(event) 
+                             var form=this;   
+                        })
+                   
+                    })
+                })
+                
+				</script>
+		
+    
 </body>
+
 </html>
