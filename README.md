@@ -56,54 +56,39 @@ Testing UCD Portfolio
 I/o tests  
 
 All pages will format to the device which the site is being presented on.  
+Reponsive design 
+(i) Try to shirnk the browser window to verify the page responds to fit within a page
+(ii) Try to view the webpage on diffrent devices to verify it the webpage can be viewed and presentable pm diffrent devices
 
 Navbar  
 
-1.(i) When highlighting over an icon the emblem shall change colour  
+1.(i)  Try to highlight the icons on the emblem to verify to the user where the user wants to navigate to
 
-(ii) When clicking on an icon the site will move over to the next webpage 
+(ii) Try to click on the icons to verify that when clicking on the icon the icon changes to blue to show the icon has been clicked.
 
-(iii) When clicking an icon, it would quickly highlight blue to indicate the user has clicked on the webpage 
+(iii) Try to click on an icon to to verify that the navbar will take the user to thwe page requested.
 
-  
-
-Header 
-
-                            
-
- 
-
- 
-
-Footer 
-
-(I) When highlighting the social media links the page will icons will highlight in blue. 
-
-(ii)Footer will always be displayed on all pages 
-
-(III)  
-
- 
-
- 
+Footer
+(i)The footer remains at the bottom of the page at all times
+(ii) Try to highlight over the social media icons at the bottom right of the page to verify that the icons are Reponsive
+(iii)Try to click on the icons to be redirected to the pages the icons indicate to verify that the icons open a new tab instead of replacing the current page.
 
 Project page 
+ (i) Try to shirnk the browser to verify if the image does not overlap the text.
 
-(I) Project images shall always be displayed 
-
-(ii) Project links shall open a new page 
+(ii)  Try to click on the link to to verify the link will take to a new tab to display a project.
 
  
 
-Contact page 
+Contact form 
 
-(I)When the form is empty validation shall appear in the name field 
+(I)  Try to click the button with no text in the field to show the validation in the name field.
 
-(ii)When the form is empty/ invalid email address the form should have validation to display  
+(ii)  Try to enter a invalid email then click the buttonto verify the form will let the user know that the field needs a @ to verify the email.
 
-(iii) 
+(iii) Try to leave the message box empty and click the button to verify a message is required for when clicking the button
 
-(iv) When a user presses the make a request a modal shall appear to declare that the form has sent the message  
+(iv)  Try to have the form to have valid information and click the button to verify a modal will appear to show to user that the meesage has been sent *FAILED TEST*
 
 
 
