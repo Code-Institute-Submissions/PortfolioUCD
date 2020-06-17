@@ -91,7 +91,10 @@ All pages will format to the device which the site is being presented on.
 (vi) When closing the modal the page shall refresh.
 ## Deployment
 This project is going to deployed on GITHUB pages.
-How to be deployed on GITHUB pages 
+How to be deployed on GITHUB pages
+1. Click on the settings tab on Github
+1. Scroll down to the github page section  and click on source
+1. On the source dropdown  select master branch to be deployed.
 
 
 ## Credits
