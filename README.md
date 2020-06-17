@@ -78,18 +78,20 @@ All pages will format to the device which the site is being presented on.
 
 ### Contact form
 
-(I) Try to click the button with no text in the field to show the validation in the name field.
+(I) Try to submit button with no text in the all fields to show the validation in the name field.
 
-(ii) Try to enter an invalid email then click the button to verify the form will let the user know that the field needs a @ to verify the email.
+(ii) Try to click the submit button with only the name field with data to verify the email field has validation. 
 
-(iii) Try to leave the message box empty and click the button to verify a message is required for when clicking the button
+(iii) Try to enter an invalid email then click the button to verify the form will let the user know that the field needs a @ to verify the email.
 
-(iv) Try to have the form to have valid information and click the button to verify a modal will appear to show the user that the message has been sent *FAILED TEST*
+(iv) Try to leave the message box empty and click the button to verify a message is required for when clicking the submit button
+
+(v) Try to have the form to have valid information and click the button to verify a modal will appear to show the user that the message has been sent
 
 ## Deployment
 This project is going to deployed on GITHUB pages.
+How to be deployed on GITHUB pages 
 
-The one difference is the modal may not be present due to condition tested on when the form is invalid the modal still appears when not intended.
 
 ## Credits
 
