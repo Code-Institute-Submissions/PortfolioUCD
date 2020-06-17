@@ -57,11 +57,11 @@ All pages will format to the device which the site is being presented on.
 
 ### Navbar
 
-1.(i) Try to highlight the icons on the emblem to verify to the user where the user wants to navigate to
+1. (i) Try to highlight the icons on the emblem to verify to the user where the user wants to navigate to
 
-(ii) Try to click on the icons to verify that when clicking on the icon changes to blue to show the icon has been clicked.
+1. (ii) Try to click on the icons to verify that when clicking on the icon changes to blue to show the icon has been clicked.
 
-(iii) Try to click on an icon to verify that the navbar will take the user to the page requested.
+1. (iii) Try to click on an icon to verify that the navbar will take the user to the page requested.
 
 ### Footer
 (i)The footer remains at the bottom of the page at all times
