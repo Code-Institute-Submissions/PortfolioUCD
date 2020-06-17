@@ -88,6 +88,7 @@ All pages will format to the device which the site is being presented on.
 
 (v) Try to have the form to have valid information and click the button to verify a modal will appear to show the user that the message has been sent
 
+(vi) When closing the modal the page shall refresh.
 ## Deployment
 This project is going to deployed on GITHUB pages.
 How to be deployed on GITHUB pages 
