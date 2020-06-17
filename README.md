@@ -66,7 +66,9 @@ All pages will format to the device which the site is being presented on.
 
 ### Footer
 (i)The footer remains at the bottom of the page at all times
+
 (ii) Try to highlight over the social media icons at the bottom right of the page to verify that the icons are Responsive
+
 (iii)Try to click on the icons to be redirected to the pages the icons indicate to verify that the icons open a new tab instead of replacing the current page.
 
 ### Project page
