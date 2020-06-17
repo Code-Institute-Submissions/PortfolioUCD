@@ -80,7 +80,7 @@ All pages will format to the device which the site is being presented on.
 
 (I) Try to submit button with no text in the all fields to show the validation in the name field.
 
-(ii) Try to click the submit button with only the name field with data to verify the email field has validation. 
+(ii) Try to click the submit button with only the name field with data to verify the email field has validation.
 
 (iii) Try to enter an invalid email then click the button to verify the form will let the user know that the field needs a @ to verify the email.
 
@@ -90,18 +90,28 @@ All pages will format to the device which the site is being presented on.
 
 (vi) When closing the modal the page shall refresh.
 ## Deployment
-This project is going to deployed on GITHUB pages.
-How to be deployed on GITHUB pages
-1. Click on the settings tab on Github
-1. Scroll down to the github page section  and click on source
-1. On the source dropdown  select master branch to be deployed.
+This project is going to deploy on GitHub pages.
+How to be deployed on GitHub pages
+1. Click on the settings tab on GitHub
+1. Scroll down to the GitHub page section and click on source
+1. On the source dropdown select master branch to be deployed.
 
+### Clone or Download
+#### clone
+1. On GitHub there is a button clone and download button to get the dropdown
+1. Click on the open in desktop
+1. This allows the project to be viewed on the git server but outside the browser.
+#### download
+1. Following same steps click on download zip
+1. Extract files into any location
+1. Click on the index.html
+1. The project has been deployed locally.
 
 ## Credits
 
 ## Content
 The content of this project is made by personal information by Albert Sam
-
+The content/code of the modal was provided bootstrap and the script was provided by my mentor dick_Ve
 ## Media
 The asset images :
 The image on index page is from personal media
@@ -110,3 +120,5 @@ The images on the work timeline page all come from google images.
 ## Acknowledgments
 This site was inspired by the project UCD in the code institute program for the concept of using Bootstrap.
 This site was inspired by the Love_Running in the Code institute program.
+
+
