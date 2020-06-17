@@ -175,7 +175,7 @@ hr { display: block; margin-before: 0.5em; margin-after: 0.5em; margin-start: au
 }
 .work-timeline-img{
     border: grey;
-    height: 150px;
+  
     width: 150px;
     padding: 12px;
     margin-left: 5px;
@@ -198,9 +198,7 @@ margin-left: 5px;
 /*--------------------------Projects*/
 .project-img{
     border: grey;
-    height:360px;
-    /*background: url("Assets/Images/LoveRunning.JPG");*/
-    width: 300px;
+    width: 250px;
     position: relative;
     
 }

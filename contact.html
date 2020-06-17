@@ -74,7 +74,7 @@
 					<label for="Message">Enter Message here:</label>
 					<textarea class="form-control" id="Message" rows="4" required></textarea>
 				</div>
-				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#CloseModal">Send Message</button>
+				<button type="submit" class="btn btn-primary" >Send Message</button>
 
 				<!-- Modal -->
 				<div class="modal fade" id="CloseModal" tabindex="-1" role="dialog" aria-labelledby="CloseModalLabel"
@@ -164,35 +164,15 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
 
-			<!--<script>
-					$(function() {
-                        var form = $("#myform");
-                        var modal= $("#CloseModal");
-                        form.submit(function(){
-                       form.addEventListener("click",function(event){
-                            event.preventDefault(event) 
-                             var form=this;   
-                        })
-                   
-                    })
-                })
-                
-				</script>-->	
-		<script> 
-        //get elements from form
-        var inputName= document.getElementById('InputName');
-        var InputEmail= document.getElementById('exampleInputEmail1');
-        var InputMessage= document.getElementById('Message');
-        var subbutton= document.getElementById('submit');
+<script>
+        $('#myForm').submit(function(e) {
+            e.preventDefault();
+            $('#CloseModal').modal('show');
+            $('#myForm')[0].reset();
+        });
+</script>
 
-        subbutton.addEventListener('click',function(e)){
-            if(inputName.value.length<3 && InputEmail && InputMessage){
-
-            }else{
-                e.preventDefault();
-            }
-        },false);
-        </script>
+    
     
 </body>
 
