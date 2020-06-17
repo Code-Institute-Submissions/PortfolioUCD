@@ -34,17 +34,17 @@ The form has validation on all fields so will tell the user the field is invalid
 On the footer there are icons for all pages and will display to user when hovered over with a mouse and when clicked on will create a new tab to the social media page.
 
 ### Technologies used:
-1.HTML5
+#### HTML5
 HTML is used for the main content of the page such as text and main structure of the project.
-1. CSS
+#### CSS
 CSS is used to create the style of the web pages and to follow the designs of the wireframes.
-1.Bootstrap 4
+#### Bootstrap 4
 The project uses Bootstrap grip to make information more presentable.
 The project uses Bootstrap so the web pages can be viewed on different devices.
 The project uses Bootstrap for form and Modal
 1.Font awsome
 Font awsome is used to provide icons for some titles in the project
-1.jQuery
+#### jQuery
 The project is used to make sure the modal is used in the right situation
 Testing
 Testing UCD Portfolio
